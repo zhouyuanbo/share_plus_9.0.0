@@ -1,0 +1,22 @@
+name: share_example
+description: Demonstrates how to use the share_plus plugin.
+
+dependencies:
+  flutter:
+    sdk: flutter
+  share_plus:
+    path: ../
+  image_picker: ^0.7.0
+
+dev_dependencies:
+  flutter_driver:
+    sdk: flutter
+  integration_test: ^1.0.2
+  pedantic: ^1.10.0
+
+flutter:
+  uses-material-design: true
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+  flutter: ">=1.9.1+hotfix.2"
